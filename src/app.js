@@ -43,8 +43,16 @@ class App {
    * Get the count value.
    * @return {integer} - The count value.
    */
-  getCount() {
+  getCount () {
     return this.count
+  }
+
+  /**
+   * Set the count value.
+   * @param {integer} count - The count value.
+   */
+  setCount (count = 0) {
+    this.count = count
   }
 }
 
