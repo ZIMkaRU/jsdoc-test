@@ -10,7 +10,7 @@
     "docs:serve": "npm run docs:prepare && npm run docs:app && gitbook serve",
     "docs:clean": "rimraf _book",
     "docs:prepublish": "npm-run-all docs:clean docs:build",
-    "docs:publish": "npm run docs:prepublish && gh-pages --repo https://${GH_TOKEN}@github.com/ZIMkaRU/jsdoc-test.git --user \"Travis CI travis@travis-ci.org\" --dist _book",
+    "docs:publish": "npm run docs:prepublish && gh-pages --repo https://${GH_TOKEN}@github.com/ZIMkaRU/jsdoc-test.git --user \"Travis CI <travis@travis-ci.org>\" --dist _book",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
