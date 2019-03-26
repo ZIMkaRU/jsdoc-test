@@ -1,0 +1,24 @@
+{
+  "gitbook":   "3.2.2",
+  "root":      "./docs",
+  "structure": { 
+    "readme":  "readme.md",
+    "summary": "summary.md" 
+  },
+  "plugins": [
+    "toolbar",
+    "packageinfo",
+    "-livereload"
+  ],
+  "pluginsConfig": {
+    "toolbar": {
+        "buttons": [
+          {
+            "label": "GitHub",
+            "icon": "fa fa-github",
+            "url": "https://github.com/ZIMkaRU/jsdoc-test"
+          }
+        ]
+    }
+  }
+}
